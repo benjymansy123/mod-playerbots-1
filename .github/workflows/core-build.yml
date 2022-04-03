@@ -16,8 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: 'azerothcore/azerothcore-wotlk'
-          ref: 'master'
+          repository: 'ZhengPeiRu21/azerothcore-wotlk'
+          ref: 'Playerbot'
           submodules: 'recursive'
       - uses: actions/checkout@v2
         with:
