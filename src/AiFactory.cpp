@@ -47,7 +47,7 @@ AiObjectContext* AiFactory::createAiObjectContext(Player* player, PlayerbotAI* b
     return new AiObjectContext(botAI);
 }
 
-uint8 AiFactory::GetPlayerSpecTab(Player* bot)
+uint8 AiFactory::GetPlayerSpecTab(Player* bot) // test
 {
     std::map<uint8, uint32> tabs = GetPlayerSpecTabs(bot);
 
